@@ -1,12 +1,42 @@
+body{
+    background-color: #99CCB8;
+    font-family: 'Courier New', Courier, monospace;
+}
 nav{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: #99CCB8;
     padding: 10px;
+    background-color: #4B665B;
 }
-h1{
+
+header{
+    display: flex;
     flex-wrap:space-around;
 }
-body{
+
+
+
+#main_contianer {
+    width: 1024px;
+    height: 500px;
+    margin: 0px auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #99CCB8;
+}
+
+#About_Me { 
+    padding: 10px;
+    background-color: #FCEDDD;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: black solid 1px;
+    height: 405px;
+    width: 830px;
+   
 }
