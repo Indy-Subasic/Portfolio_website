@@ -1,8 +1,8 @@
-body{
+body {
     background-color: #99CCB8;
     font-family: 'Courier New', Courier, monospace;
 }
-nav{
+nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -11,16 +11,24 @@ nav{
     background-color: #4B665B;
 }
 
-header{
+header {
     display: flex;
     flex-wrap:space-around;
 }
 
-
+#Indy-logo{
+    margin: 20px;
+    height: 570px;
+    width: 370px;
+    border-radius: 50%;
+    fill: white; 
+    outline: black solid 4px;
+    
+}
 
 #main_contianer {
     width: 1024px;
-    height: 500px;
+    height: 20000px;
     margin: 0px auto;
     
     display: flex;
@@ -38,5 +46,35 @@ header{
     border: black solid 1px;
     height: 405px;
     width: 830px;
-   
+    font-size: larger;
+}
+
+#Classes {
+    padding: 10px;
+    background-color: #FCEDDD;
+    display: flex;
+    align-items: center;
+    border: black solid 1px;
+    height: 405px;
+    width: 830px;
+    font-size: larger;
+}
+
+#Experience { 
+    padding: 10px;
+    background-color: #FCEDDD;
+    display: flex;
+    border: black solid 1px;
+    height: 405px;
+    width: 830px;
+    font-size: larger;
+}
+#portfolio {
+    padding: 10px;
+    background-color: #FCEDDD;
+    display: flex;
+    border: black solid 1px;
+    height: 1000px;
+    width: 830px;
+    font-size: larger;
 }
