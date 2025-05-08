@@ -1,4 +1,5 @@
 body {
+    margin: 0px;
     background-color: #99CCB8;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -6,10 +7,10 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: #99CCB8;
-    padding: 10px;
     background-color: #4B665B;
+    position: fixed;
 }
+
 
 header {
     display: flex;
@@ -17,11 +18,11 @@ header {
 }
 
 #Indy-logo{
-    margin: 20px;
-    height: 570px;
-    width: 370px;
-    border-radius: 50%;
-    fill: white; 
+    margin: 100px;
+    height: 317px;
+    width: 317px;
+    border-radius: 50%; 
+    background-color: white;
     outline: black solid 4px;
     
 }
@@ -69,12 +70,50 @@ header {
     width: 830px;
     font-size: larger;
 }
-#portfolio {
+#Portfolio {
     padding: 10px;
     background-color: #FCEDDD;
     display: flex;
     border: black solid 1px;
-    height: 1000px;
+    height: 1400px;
     width: 830px;
     font-size: larger;
+    flex-direction: column;
+}
+
+#year1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#year2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#zues-web {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#Nav-Junk {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
 }
