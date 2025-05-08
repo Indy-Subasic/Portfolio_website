@@ -31,7 +31,6 @@ header {
     width: 1024px;
     height: 20000px;
     margin: 0px auto;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +44,7 @@ header {
     justify-content: center; 
     align-items: center;
     border: black solid 1px;
-    height: 405px;
+    height: 200px;
     width: 830px;
     font-size: larger;
 }
@@ -56,7 +55,7 @@ header {
     display: flex;
     align-items: center;
     border: black solid 1px;
-    height: 405px;
+    height: 300px;
     width: 830px;
     font-size: larger;
 }
@@ -66,7 +65,7 @@ header {
     background-color: #FCEDDD;
     display: flex;
     border: black solid 1px;
-    height: 405px;
+    height: 250px;
     width: 830px;
     font-size: larger;
 }
@@ -75,7 +74,7 @@ header {
     background-color: #FCEDDD;
     display: flex;
     border: black solid 1px;
-    height: 1400px;
+    height: 1350px;
     width: 830px;
     font-size: larger;
     flex-direction: column;
