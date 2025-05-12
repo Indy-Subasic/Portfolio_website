@@ -47,6 +47,8 @@ header {
     height: 200px;
     width: 830px;
     font-size: larger;
+    border-radius: 25px;
+    padding: 20px;
 }
 
 #Classes {
@@ -58,6 +60,8 @@ header {
     height: 300px;
     width: 830px;
     font-size: larger;
+    border-radius: 25px;
+    padding: 20px;
 }
 
 #Experience { 
@@ -68,6 +72,8 @@ header {
     height: 250px;
     width: 830px;
     font-size: larger;
+    border-radius: 25px;
+    padding: 20px;
 }
 #Portfolio {
     padding: 10px;
@@ -78,6 +84,8 @@ header {
     width: 830px;
     font-size: larger;
     flex-direction: column;
+    border-radius: 25px;
+    padding: 20px;
 }
 
 #year1 {
@@ -107,7 +115,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
 }
 
 a {
