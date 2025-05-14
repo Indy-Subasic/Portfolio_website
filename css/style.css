@@ -9,6 +9,7 @@ nav {
     justify-content: space-around;
     background-color: #4B665B;
     position: fixed;
+    
 }
 
 
@@ -115,6 +116,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
 
 a {
@@ -122,4 +124,17 @@ a {
     color: black;
     font-size: 20px;
     padding: 10px;
+
+}
+/* mouse over link */
+a:hover {
+    color: white;
+  }
+   
+.guy-fence:hover {
+
+    display:none;
+}
+.transition-image {
+    display: none;
 }
