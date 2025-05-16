@@ -130,11 +130,34 @@ a {
 a:hover {
     color: white;
   }
-   
-.guy-fence:hover {
-
-    display:none;
+  
+  #fence-man {
+    display: flex;
+    justify-content: center;
+    width: 460px;  /* Match image width */
+    height: 460px; /* Match image height */
 }
+
+.guy-fence,
 .transition-image {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Show guy-fence by default */
+.transition-image {
+    display: none; /* Hide the transition image initially */
+}
+
+/* On hover: Hide the guy-fence and show the transition image */
+#fence-man:hover .guy-fence {
     display: none;
+}
+
+#fence-man:hover .transition-image {
+    display: block;
 }
