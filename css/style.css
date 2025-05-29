@@ -161,3 +161,17 @@ a:hover {
 #fence-man:hover .transition-image {
     display: block;
 }
+
+.image-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: auto;
+    transition: transform 0.2s;
+  }
+  
+  .image-button:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+
