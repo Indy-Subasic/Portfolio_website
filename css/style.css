@@ -35,7 +35,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #99CCB8;
 }
 
 #About_Me { 
@@ -175,3 +174,8 @@ a:hover {
     transform: scale(1.05); /* Slight zoom effect */
   }
 
+  body {
+  transition: background-color 1s ease;
+}
+
+  
